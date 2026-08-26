@@ -1,1 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fall 2026 Number Theory Seminar organized by Zhaolin Li and Dat Pham.">
+  <meta property="og:title" content="Number Theory Seminar — Fall 2026">
+  <meta property="og:description" content="A joint seminar organized by Zhaolin Li and Dat Pham.">
+  <meta property="og:type" content="website">
+  <title>Number Theory Seminar — Fall 2026</title>
+
+  <style>
+    :root {
+      --text: #1c1c1c;
+      --muted: #666;
+      --rule: #c8c8c8;
+      --soft-rule: #dedede;
+      --header-background: #f5f5f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: var(--text);
+      background: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0 0 0.6rem;
+      font-size: clamp(2rem, 5vw, 2.6rem);
+    }
+
+    h2 {
+      margin: 1.5rem 0 1rem;
+      font-size: 1.5rem;
+    }
+
+    header h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0.8rem 0;
+    }
+
+    hr {
+      margin: 2rem 0;
+      border: 0;
+      border-top: 1px solid var(--rule);
+    }
+
+    .schedule-wrapper {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      font-size: 0.97rem;
+    }
+
+    th,
+    td {
+      padding: 0.8rem 0.7rem;
+      border-bottom: 1px solid var(--soft-rule);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--header-background);
+      font-size: 0.9rem;
+      letter-spacing: 0.02em;
+    }
+
+    th:first-child,
+    td:first-child {
+      width: 15%;
+      white-space: nowrap;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2) {
+      width: 24%;
+    }
+
+    th:nth-child(3),
+    td:nth-child(3) {
+      width: 27%;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .tba {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 2rem;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 680px) {
+      body {
+        margin: 28px auto;
+        padding: 0 16px;
+        font-size: 16px;
+      }
+
+      thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table {
+        border-top: 0;
+      }
+
+      tr {
+        padding: 0.7rem 0;
+        border-top: 1px solid var(--rule);
+      }
+
+      td,
+      td:first-child,
+      td:nth-child(2),
+      td:nth-child(3) {
+        display: grid;
+        grid-template-columns: 5.5rem minmax(0, 1fr);
+        gap: 0.75rem;
+        width: 100%;
+        padding: 0.3rem 0;
+        border: 0;
+        white-space: normal;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Number Theory Seminar</h1>
+    <h2>Fall 2026</h2>
+
+    <p>
+      A joint seminar organized by <strong>Zhaolin Li</strong> and
+      <strong>Dat Pham</strong>.
+    </p>
+
+    <p>
+      Talk titles and abstracts will be posted as they become available.
+    </p>
+  </header>
+
+  <hr>
+
+  <main>
+    <section aria-labelledby="schedule-heading">
+      <h2 id="schedule-heading">Talk Schedule</h2>
+
+      <div class="schedule-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Speaker</th>
+              <th scope="col">Title</th>
+              <th scope="col">Abstract</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td data-label="Date">September 2</td>
+              <td data-label="Speaker"><strong>Chun-Hsien Hsu</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">September 9</td>
+              <td data-label="Speaker"><strong>Pranjal Warade</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">September 16</td>
+              <td data-label="Speaker"><strong>Luis Garcia</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">September 23</td>
+              <td data-label="Speaker"><span class="tba">TBA</span></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">September 30</td>
+              <td data-label="Speaker"><strong>Salim Tayou</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">October 7</td>
+              <td data-label="Speaker"><strong>Yan Pan</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">October 14</td>
+              <td data-label="Speaker"><strong>Ananth Shankar</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">October 21</td>
+              <td data-label="Speaker"><strong>Marco Sangiovanni</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">October 28</td>
+              <td data-label="Speaker"><span class="tba">TBA</span></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">November 4</td>
+              <td data-label="Speaker"><strong>Yingkun Li</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">November 11</td>
+              <td data-label="Speaker"><span class="tba">TBA</span></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">November 18</td>
+              <td data-label="Speaker"><strong>Manami Roy</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">November 25</td>
+              <td data-label="Speaker"><span class="tba">TBA</span></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+            <tr>
+              <td data-label="Date">December 2</td>
+              <td data-label="Speaker"><strong>David Roe</strong></td>
+              <td data-label="Title"><span class="tba">TBA</span></td>
+              <td data-label="Abstract"><span class="tba">TBA</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Last updated August 2026.</p>
+  </footer>
+</body>
+</html>
 
