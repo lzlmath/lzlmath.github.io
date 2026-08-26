@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fall 2026 Number Theory Seminar organized by Zhaolin Li and Dat Pham.">
-  <meta property="og:title" content="Number Theory Seminar — Fall 2026">
-  <meta property="og:description" content="A joint seminar organized by Zhaolin Li and Dat Pham.">
-  <meta property="og:type" content="website">
-  <title>Number Theory Seminar — Fall 2026</title>
+
+  <meta
+    name="description"
+    content="Fall 2026 Number Theory Seminar organized by Zhaolin Li and Dat Pham."
+  >
+
+  <title>Johns Hopkins Number Theory Seminar — Fall 2026</title>
 
   <style>
     :root {
       --text: #1c1c1c;
       --muted: #666;
       --rule: #c8c8c8;
-      --soft-rule: #dedede;
-      --header-background: #f5f5f5;
     }
 
     * {
@@ -62,50 +62,28 @@
       border-top: 1px solid var(--rule);
     }
 
-    .schedule-wrapper {
-      overflow-x: auto;
+    li {
+      margin-bottom: 12px;
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      border-top: 1px solid var(--rule);
-      border-bottom: 1px solid var(--rule);
-      font-size: 0.97rem;
+    ul ul {
+      margin-top: 6px;
     }
 
-    th,
-    td {
-      padding: 0.8rem 0.7rem;
-      border-bottom: 1px solid var(--soft-rule);
-      text-align: left;
-      vertical-align: top;
+    .schedule {
+      padding-left: 1.4rem;
     }
 
-    th {
-      background: var(--header-background);
-      font-size: 0.9rem;
-      letter-spacing: 0.02em;
+    .schedule > li {
+      margin-bottom: 1.3rem;
     }
 
-    th:first-child,
-    td:first-child {
-      width: 15%;
-      white-space: nowrap;
+    .talk-details {
+      padding-left: 1.4rem;
     }
 
-    th:nth-child(2),
-    td:nth-child(2) {
-      width: 24%;
-    }
-
-    th:nth-child(3),
-    td:nth-child(3) {
-      width: 27%;
-    }
-
-    tbody tr:last-child td {
-      border-bottom: 0;
+    .talk-details li {
+      margin-bottom: 0.35rem;
     }
 
     .tba {
@@ -126,54 +104,8 @@
         font-size: 16px;
       }
 
-      thead {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-      }
-
-      table,
-      tbody,
-      tr,
-      td {
-        display: block;
-        width: 100%;
-      }
-
-      table {
-        border-top: 0;
-      }
-
-      tr {
-        padding: 0.7rem 0;
-        border-top: 1px solid var(--rule);
-      }
-
-      td,
-      td:first-child,
-      td:nth-child(2),
-      td:nth-child(3) {
-        display: grid;
-        grid-template-columns: 5.5rem minmax(0, 1fr);
-        gap: 0.75rem;
-        width: 100%;
-        padding: 0.3rem 0;
-        border: 0;
-        white-space: normal;
-      }
-
-      td::before {
-        content: attr(data-label);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.75rem;
-        font-weight: 700;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
+      .schedule {
+        padding-left: 1.2rem;
       }
     }
   </style>
@@ -185,12 +117,15 @@
     <h2>Fall 2026</h2>
 
     <p>
-      A joint seminar organized by <strong>Zhaolin Li</strong> and
-      <strong>Dat Pham</strong>.
+      A joint seminar organized by Dat Pham, Murilo Corato Zanarella and Zhaolin Li, supported by Yiannis Sakellaridis and David Savitt.
     </p>
 
     <p>
-      Talk titles and abstracts will be posted as they become available.
+      Wednesday 2:00 - 3:00 pm.
+    </p>
+
+      <p>
+      Room: Krieger 411
     </p>
   </header>
 
@@ -200,105 +135,169 @@
     <section aria-labelledby="schedule-heading">
       <h2 id="schedule-heading">Talk Schedule</h2>
 
-      <div class="schedule-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">Date</th>
-              <th scope="col">Speaker</th>
-              <th scope="col">Title</th>
-              <th scope="col">Abstract</th>
-            </tr>
-          </thead>
+      <ul class="schedule">
+        <li>
+          <strong>September 2: Chun-Hsien Hsu</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
 
-          <tbody>
-            <tr>
-              <td data-label="Date">September 2</td>
-              <td data-label="Speaker"><strong>Chun-Hsien Hsu</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">September 9</td>
-              <td data-label="Speaker"><strong>Pranjal Warade</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">September 16</td>
-              <td data-label="Speaker"><strong>Luis Garcia</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">September 23</td>
-              <td data-label="Speaker"><span class="tba">TBA</span></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">September 30</td>
-              <td data-label="Speaker"><strong>Salim Tayou</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">October 7</td>
-              <td data-label="Speaker"><strong>Yan Pan</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">October 14</td>
-              <td data-label="Speaker"><strong>Ananth Shankar</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">October 21</td>
-              <td data-label="Speaker"><strong>Marco Sangiovanni</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">October 28</td>
-              <td data-label="Speaker"><span class="tba">TBA</span></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">November 4</td>
-              <td data-label="Speaker"><strong>Yingkun Li</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">November 11</td>
-              <td data-label="Speaker"><span class="tba">TBA</span></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">November 18</td>
-              <td data-label="Speaker"><strong>Manami Roy</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">November 25</td>
-              <td data-label="Speaker"><span class="tba">TBA</span></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-            <tr>
-              <td data-label="Date">December 2</td>
-              <td data-label="Speaker"><strong>David Roe</strong></td>
-              <td data-label="Title"><span class="tba">TBA</span></td>
-              <td data-label="Abstract"><span class="tba">TBA</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <li>
+          <strong>September 9: Pranjal Warade</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>September 16: Luis Garcia</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>
+            September 23: <span class="tba">TBA</span>
+          </strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>September 30: Salim Tayou</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>October 7: Yan Pan</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>October 14: Ananth Shankar</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>October 21: Marco Sangiovanni</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>
+            October 28: <span class="tba">TBA</span>
+          </strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>November 4: Yingkun Li</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>
+            November 11: <span class="tba">TBA</span>
+          </strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>November 18: Manami Roy</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>
+            November 25: <span class="tba">TBA</span>
+          </strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>December 2: David Roe</strong>
+          <ul class="talk-details">
+            <li>Title: <span class="tba">TBA</span></li>
+            <li>
+              <strong>Abstract:</strong>
+              <span class="tba">TBA</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </main>
 
@@ -307,4 +306,3 @@
   </footer>
 </body>
 </html>
-
